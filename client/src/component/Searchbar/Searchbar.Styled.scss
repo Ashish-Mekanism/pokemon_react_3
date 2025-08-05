@@ -1,0 +1,25 @@
+.searchbarContainer {
+  width: 300px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+
+  background-color: #f5f5f5;
+  gap: 16px;
+  padding: 8px 16px;
+  border-radius: 8px;
+  align-self: end;
+  box-shadow: 0px 0px 3px 1px #00000026;
+}
+.searchIcon {
+  height: 15px;
+  width: 15px;
+  cursor: pointer;
+}
+.inputbar {
+  width: 100%;
+  border: none;
+  background-color: 'transparent';
+  font-size: 16px;
+  outline: none;
+}

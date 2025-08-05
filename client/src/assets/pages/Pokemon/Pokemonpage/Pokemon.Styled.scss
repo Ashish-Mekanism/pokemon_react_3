@@ -1,0 +1,19 @@
+.outerContainert {
+  width: 56%;
+
+  // background-color: aqua;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 18px;
+  gap: 20px;
+}
+.outer {
+  display: flex;
+  justify-content: center;
+}
+
+.pokemonlist {
+  display: flex;
+  gap: 28px;
+}

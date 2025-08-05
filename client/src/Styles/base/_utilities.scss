@@ -1,0 +1,18 @@
+@use './variables' as *;
+
+.mt-sm {
+  margin-top: $spacing-sm;
+}
+.mt-md {
+  margin-top: $spacing-md;
+}
+.mt-lg {
+  margin-top: $spacing-lg;
+}
+
+.text-center {
+  text-align: center;
+}
+.text-primary {
+  color: $primary-color;
+}
