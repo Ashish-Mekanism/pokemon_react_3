@@ -1,52 +1,52 @@
-// import React from 'react';
-// import './Card.Styled.scss';
-// import Image from '../../assets/images/image.png';
-
-// const Card = () => {
-//   return (
-//     <div className='outersideContainer'>
-//       <p className='id'>#0001</p>
-//       <img
-//         className='pokemonImg'
-//         src={Image}
-//       />
-//       <div className='innerContainer'>
-//         <p className='pokemonName'></p>
-//         <div className='skillContainer'>
-//           <label className='skillLable'></label>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default Card;
-
 import React from 'react';
 import './Card.Styled.scss';
-import Image from '../../assets/images/image.png';
+import typeColors from '../../type/types';
 
-const PokemonCard = () => {
+interface Props {
+  id: number;
+  name: string;
+  types: string[]; // ✅ fixed type
+  image: string;
+}
+
+const Card: React.FC<Props> = ({ id, name, types, image }) => {
   return (
-    <div className='pokemon-card'>
+    <div
+      className='pokemon-card'
+      style={{ backgroundColor: typeColors[types[0]] || '#666' }}
+    >
       <div className='pokemon-header'>
-        <span className='pokemon-id'>#001</span>
+        <span className='pokemon-id'>#00{id}</span>
       </div>
-      <div className='image'>
-        <img
-          src={Image}
-          className='pokemon-img'
-        />
-      </div>
+
+      <img
+        src={image}
+        className='pokemon-img'
+        alt={name}
+        loading='lazy'
+      />
+
       <div className='innerContainer'>
-        <h3 className='pokemon-name'>Balbasor</h3>
+        <h3
+          className='pokemon-name'
+          style={{ color: typeColors[types[0]] || '#666' }}
+        >
+          {name}
+        </h3>
         <div className='skill'>
-          <p className='lableName'>Grass</p>
-          <p className='lableName'>Poison</p>
+          {types.map((type, index) => (
+            <p
+              key={index}
+              className='lableName'
+              style={{ backgroundColor: typeColors[type] || '#666' }}
+            >
+              {type}
+            </p>
+          ))}
         </div>
       </div>
     </div>
   );
 };
 
-export default PokemonCard;
+export default Card;

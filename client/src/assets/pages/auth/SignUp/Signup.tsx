@@ -11,7 +11,7 @@ import { IUserValue } from '../../../../type/types';
 
 const initialValue = {
   fullname: '',
-  age: 0,
+  age: Number,
   email: '',
   password: '',
   confrimPassword: '',

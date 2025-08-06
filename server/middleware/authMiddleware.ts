@@ -24,6 +24,7 @@ const authMiddleware = asyncHandler(
           token,
           process.env.JWT_SECRET as string
         ) as JwtExpPayload;
+
         const user = allUsers.find((u) => u.id === decoded.id);
         //todo: find user
         if (user) {

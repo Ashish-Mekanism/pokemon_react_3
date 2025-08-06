@@ -1,1 +1,62 @@
-[{"fullname":"John","email":"john@test.com","password":"$2a$10$BxQbGOFrVoxYcU2l3QHyAeyM.X21YltO8EZ8LVmIGZCnPmpk1xd3y","id":"1710508568604","avatar":"https://i.pravatar.cc/300"},{"fullname":"ashish","age":25,"email":"admin@test.com","password":"$2a$10$aORSih/N5f03Qwo17HoQru8d0vryD2fb6TI0vrPEyRpef/bknr5ny","id":"1754304695479","avatar":"https://i.pravatar.cc/300"},{"fullname":"ashish","age":34,"email":"a@a.com","password":"$2a$10$v4amZ8FGjdQCy8u0JuNUIOWRI5DCUSe5XYkFqOMCBuYdXyOWsXURi","confrimPassword":"Ashish@123","id":"1754305931889","avatar":"https://i.pravatar.cc/300"},{"fullname":"raj","age":56,"email":"r@r.com","password":"$2a$10$G1ProNpG1DyreU8Sbfj6dO.GM40fqZ1w.gzuC5Do9mX4KLSh6Pmvi","confrimPassword":"Ashish@123","id":"1754306119465","avatar":"https://i.pravatar.cc/300"},{"fullname":"jay","age":25,"email":"j@j.com","password":"$2a$10$ha95DRu/02CgEzwpJ8xuMuIj5X5y2t0mvamdTB1BAd8f3u.OorPnS","confrimPassword":"Test@123","id":"1754308888831","avatar":"https://i.pravatar.cc/300"},{"fullname":"deep","age":56,"email":"d@d.com","password":"$2a$10$nJGvP2dmChlnaRtgZO7CbuHSvPaGuPoWjwEmgFA28siD6tjMUEQL6","confrimPassword":"Deep@123","id":"1754308927351","avatar":"https://i.pravatar.cc/300"}]
+[
+  {
+    "fullname": "John",
+    "email": "john@test.com",
+    "password": "$2a$10$BxQbGOFrVoxYcU2l3QHyAeyM.X21YltO8EZ8LVmIGZCnPmpk1xd3y",
+    "id": "1710508568604",
+    "avatar": "https://i.pravatar.cc/300"
+  },
+  {
+    "fullname": "ashish",
+    "age": 25,
+    "email": "admin@test.com",
+    "password": "$2a$10$aORSih/N5f03Qwo17HoQru8d0vryD2fb6TI0vrPEyRpef/bknr5ny",
+    "id": "1754304695479",
+    "avatar": "https://i.pravatar.cc/300"
+  },
+  {
+    "fullname": "ashish",
+    "age": 34,
+    "email": "a@a.com",
+    "password": "$2a$10$v4amZ8FGjdQCy8u0JuNUIOWRI5DCUSe5XYkFqOMCBuYdXyOWsXURi",
+    "confrimPassword": "Ashish@123",
+    "id": "1754305931889",
+    "avatar": "https://i.pravatar.cc/300"
+  },
+  {
+    "fullname": "raj",
+    "age": 56,
+    "email": "r@r.com",
+    "password": "$2a$10$G1ProNpG1DyreU8Sbfj6dO.GM40fqZ1w.gzuC5Do9mX4KLSh6Pmvi",
+    "confrimPassword": "Ashish@123",
+    "id": "1754306119465",
+    "avatar": "https://i.pravatar.cc/300"
+  },
+  {
+    "fullname": "jay",
+    "age": 25,
+    "email": "j@j.com",
+    "password": "$2a$10$ha95DRu/02CgEzwpJ8xuMuIj5X5y2t0mvamdTB1BAd8f3u.OorPnS",
+    "confrimPassword": "Test@123",
+    "id": "1754308888831",
+    "avatar": "https://i.pravatar.cc/300"
+  },
+  {
+    "fullname": "deep",
+    "age": 56,
+    "email": "d@d.com",
+    "password": "$2a$10$nJGvP2dmChlnaRtgZO7CbuHSvPaGuPoWjwEmgFA28siD6tjMUEQL6",
+    "confrimPassword": "Deep@123",
+    "id": "1754308927351",
+    "avatar": "https://i.pravatar.cc/300"
+  },
+  {
+    "fullname": "Ankita",
+    "age": 28,
+    "email": "ankita@gmail.com",
+    "password": "$2a$10$bkl.x2EgLPQL2/NTx4xg7.wuM1I/X.Nb4PnaoW3O60q/gKCpM8mt2",
+    "confrimPassword": "Test@123",
+    "id": "1754480001225",
+    "avatar": "https://i.pravatar.cc/300"
+  }
+]

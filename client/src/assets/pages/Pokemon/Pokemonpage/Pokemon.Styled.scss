@@ -1,7 +1,7 @@
+@use '../../../../Styles/base/variables' as *;
+
 .outerContainert {
   width: 56%;
-
-  // background-color: aqua;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -12,8 +12,20 @@
   display: flex;
   justify-content: center;
 }
-
 .pokemonlist {
-  display: flex;
-  gap: 28px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 27px;
+  justify-content: center;
+}
+.load-more {
+  margin-top: 20px;
+  padding: 8px 24px;
+  background-color: $Header;
+  color: $primary-color;
+  border-radius: 25px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
 }
